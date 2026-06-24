@@ -13,7 +13,7 @@ $(document).ready(function () {
     // Credenciales fijas
     if (usuario === "Francisco" && password === "1234") {
       alert("Bienvenido, " + usuario + "!");
-      window.location.href = "/menu.html"; // Redirige al menú
+      window.location.href = "./menu.html"; // Redirige al menú
     } else {
       alert("Usuario o contraseña incorrectos.");
     }
