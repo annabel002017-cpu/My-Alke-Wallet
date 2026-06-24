@@ -63,6 +63,7 @@ $(document).ready(function () {
       alert("Fondos insuficientes para la transferencia.");
       return;
     }
+    
     saldo -= monto;
     $("#saldo").text(`$${saldo}`);
     guardarTransaccion("Transferencia", monto, `Transferencia a ${destinatario}`);
