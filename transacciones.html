@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Transacciones</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/transacciones.css" rel="stylesheet">
+    <script src="/js/jquery-4.0.0.min.js"></script>
+    <script src="/js/transacciones.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="transacciones-container">
+            <h2 class="text-center">Historial de Transacciones</h2>
+            <table class="table table-dark table-striped mt-4">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tipo</th>
+                        <th>Monto</th>
+                        <th>Detalle</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaTransacciones">
+                </tbody>
+            </table>
+            <div class="text-center mt-3">
+                <a href="/menu.html" class="btn btn-secondary">Volver al menú</a>
+                <button id="btnBorrar" class="btn btn-danger">Borrar historial</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5">
+        <p>&copy; 2026 My Alke Wallet. Derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

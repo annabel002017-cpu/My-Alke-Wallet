@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #4a90e2, #ffffff); 
+}
+
+.registro-container {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+}
+
+.registro-container h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-success {
+  margin-top: 10px;
+  width: 100%;
+}
+
+a.btn-link {
+  color: #ffc107;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+a.btn-link:hover {
+  color: #e0a800;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #f1f1f1;
+  padding: 10px;
+  text-align: left;
+}

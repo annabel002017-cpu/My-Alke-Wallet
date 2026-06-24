@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet - Menú Principal</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/menu.css" rel="stylesheet">
+    <script src="/js/jquery-4.0.0.min.js"></script>
+    <script src="/js/menu.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="menu-container">
+            <h2 class="text-center">Bienvenido a tu Alke Wallet</h2>
+            <h4 class="text-center">Saldo disponible: <span id="saldo">$0</span></h4>
+
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <h5>Depósito</h5>
+                    <form id="formDeposito">
+                        <input type="number" class="form-control mb-2" id="montoDeposito"
+                            placeholder="Monto a depositar">
+                        <button type="submit" class="btn btn-success btn-block">Depositar</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h5>Retiro</h5>
+                    <form id="formRetiro">
+                        <input type="number" class="form-control mb-2" id="montoRetiro" placeholder="Monto a retirar">
+                        <button type="submit" class="btn btn-danger btn-block">Retirar</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h5>Transferencia</h5>
+                    <form id="formTransferencia">
+                        <input type="text" class="form-control mb-2" id="destinatario" placeholder="Usuario destino">
+                        <input type="number" class="form-control mb-2" id="montoTransferencia"
+                            placeholder="Monto a transferir">
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="mt-4 text-center">
+                <a href="/transacciones.html" class="btn btn-info">Ver historial de transacciones</a>
+                <a href="/login.html" class="btn btn-secondary">Cerrar sesión</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer mt-5">
+        <p>&copy; 2026 My Alke Wallet. Derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
