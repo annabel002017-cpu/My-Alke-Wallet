@@ -20,6 +20,6 @@ $(document).ready(function () {
     }
 
     alert("Registro exitoso. Bienvenido, " + usuario + "!");
-    window.location.href = "/login.html";
+    window.location.href = "/index.html";
   });
 });
